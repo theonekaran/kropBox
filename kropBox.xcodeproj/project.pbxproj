@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F3527A11CF22F6A0068D6C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3527A01CF22F6A0068D6C3 /* AppDelegate.swift */; };
+		0F3527A31CF22F6A0068D6C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3527A21CF22F6A0068D6C3 /* ViewController.swift */; };
+		0F3527A61CF22F6A0068D6C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3527A41CF22F6A0068D6C3 /* Main.storyboard */; };
+		0F3527A81CF22F6A0068D6C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3527A71CF22F6A0068D6C3 /* Assets.xcassets */; };
+		0F3527AB1CF22F6A0068D6C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3527A91CF22F6A0068D6C3 /* LaunchScreen.storyboard */; };
+		0F3527B61CF22F6A0068D6C3 /* kropBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3527B51CF22F6A0068D6C3 /* kropBoxTests.swift */; };
+		0F3527C11CF22F6A0068D6C3 /* kropBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3527C01CF22F6A0068D6C3 /* kropBoxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F3527B21CF22F6A0068D6C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F3527951CF22F6A0068D6C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F35279C1CF22F6A0068D6C3;
+			remoteInfo = kropBox;
+		};
+		0F3527BD1CF22F6A0068D6C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F3527951CF22F6A0068D6C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F35279C1CF22F6A0068D6C3;
+			remoteInfo = kropBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F35279D1CF22F6A0068D6C3 /* kropBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kropBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3527A01CF22F6A0068D6C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F3527A21CF22F6A0068D6C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F3527A51CF22F6A0068D6C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F3527A71CF22F6A0068D6C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F3527AA1CF22F6A0068D6C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F3527AC1CF22F6A0068D6C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F3527B11CF22F6A0068D6C3 /* kropBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kropBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3527B51CF22F6A0068D6C3 /* kropBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kropBoxTests.swift; sourceTree = "<group>"; };
+		0F3527B71CF22F6A0068D6C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F3527BC1CF22F6A0068D6C3 /* kropBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kropBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3527C01CF22F6A0068D6C3 /* kropBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kropBoxUITests.swift; sourceTree = "<group>"; };
+		0F3527C21CF22F6A0068D6C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F35279A1CF22F6A0068D6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3527AE1CF22F6A0068D6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3527B91CF22F6A0068D6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F3527941CF22F6A0068D6C3 = {
+			isa = PBXGroup;
+			children = (
+				0F35279F1CF22F6A0068D6C3 /* kropBox */,
+				0F3527B41CF22F6A0068D6C3 /* kropBoxTests */,
+				0F3527BF1CF22F6A0068D6C3 /* kropBoxUITests */,
+				0F35279E1CF22F6A0068D6C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F35279E1CF22F6A0068D6C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F35279D1CF22F6A0068D6C3 /* kropBox.app */,
+				0F3527B11CF22F6A0068D6C3 /* kropBoxTests.xctest */,
+				0F3527BC1CF22F6A0068D6C3 /* kropBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F35279F1CF22F6A0068D6C3 /* kropBox */ = {
+			isa = PBXGroup;
+			children = (
+				0F3527A01CF22F6A0068D6C3 /* AppDelegate.swift */,
+				0F3527A21CF22F6A0068D6C3 /* ViewController.swift */,
+				0F3527A41CF22F6A0068D6C3 /* Main.storyboard */,
+				0F3527A71CF22F6A0068D6C3 /* Assets.xcassets */,
+				0F3527A91CF22F6A0068D6C3 /* LaunchScreen.storyboard */,
+				0F3527AC1CF22F6A0068D6C3 /* Info.plist */,
+			);
+			path = kropBox;
+			sourceTree = "<group>";
+		};
+		0F3527B41CF22F6A0068D6C3 /* kropBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F3527B51CF22F6A0068D6C3 /* kropBoxTests.swift */,
+				0F3527B71CF22F6A0068D6C3 /* Info.plist */,
+			);
+			path = kropBoxTests;
+			sourceTree = "<group>";
+		};
+		0F3527BF1CF22F6A0068D6C3 /* kropBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F3527C01CF22F6A0068D6C3 /* kropBoxUITests.swift */,
+				0F3527C21CF22F6A0068D6C3 /* Info.plist */,
+			);
+			path = kropBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F35279C1CF22F6A0068D6C3 /* kropBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3527C51CF22F6A0068D6C3 /* Build configuration list for PBXNativeTarget "kropBox" */;
+			buildPhases = (
+				0F3527991CF22F6A0068D6C3 /* Sources */,
+				0F35279A1CF22F6A0068D6C3 /* Frameworks */,
+				0F35279B1CF22F6A0068D6C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kropBox;
+			productName = kropBox;
+			productReference = 0F35279D1CF22F6A0068D6C3 /* kropBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F3527B01CF22F6A0068D6C3 /* kropBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3527C81CF22F6A0068D6C3 /* Build configuration list for PBXNativeTarget "kropBoxTests" */;
+			buildPhases = (
+				0F3527AD1CF22F6A0068D6C3 /* Sources */,
+				0F3527AE1CF22F6A0068D6C3 /* Frameworks */,
+				0F3527AF1CF22F6A0068D6C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F3527B31CF22F6A0068D6C3 /* PBXTargetDependency */,
+			);
+			name = kropBoxTests;
+			productName = kropBoxTests;
+			productReference = 0F3527B11CF22F6A0068D6C3 /* kropBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F3527BB1CF22F6A0068D6C3 /* kropBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F3527CB1CF22F6A0068D6C3 /* Build configuration list for PBXNativeTarget "kropBoxUITests" */;
+			buildPhases = (
+				0F3527B81CF22F6A0068D6C3 /* Sources */,
+				0F3527B91CF22F6A0068D6C3 /* Frameworks */,
+				0F3527BA1CF22F6A0068D6C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F3527BE1CF22F6A0068D6C3 /* PBXTargetDependency */,
+			);
+			name = kropBoxUITests;
+			productName = kropBoxUITests;
+			productReference = 0F3527BC1CF22F6A0068D6C3 /* kropBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F3527951CF22F6A0068D6C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Karan Khurana";
+				TargetAttributes = {
+					0F35279C1CF22F6A0068D6C3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					0F3527B01CF22F6A0068D6C3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0F35279C1CF22F6A0068D6C3;
+					};
+					0F3527BB1CF22F6A0068D6C3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0F35279C1CF22F6A0068D6C3;
+					};
+				};
+			};
+			buildConfigurationList = 0F3527981CF22F6A0068D6C3 /* Build configuration list for PBXProject "kropBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F3527941CF22F6A0068D6C3;
+			productRefGroup = 0F35279E1CF22F6A0068D6C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F35279C1CF22F6A0068D6C3 /* kropBox */,
+				0F3527B01CF22F6A0068D6C3 /* kropBoxTests */,
+				0F3527BB1CF22F6A0068D6C3 /* kropBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F35279B1CF22F6A0068D6C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3527AB1CF22F6A0068D6C3 /* LaunchScreen.storyboard in Resources */,
+				0F3527A81CF22F6A0068D6C3 /* Assets.xcassets in Resources */,
+				0F3527A61CF22F6A0068D6C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3527AF1CF22F6A0068D6C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3527BA1CF22F6A0068D6C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F3527991CF22F6A0068D6C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3527A31CF22F6A0068D6C3 /* ViewController.swift in Sources */,
+				0F3527A11CF22F6A0068D6C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3527AD1CF22F6A0068D6C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3527B61CF22F6A0068D6C3 /* kropBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F3527B81CF22F6A0068D6C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3527C11CF22F6A0068D6C3 /* kropBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F3527B31CF22F6A0068D6C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F35279C1CF22F6A0068D6C3 /* kropBox */;
+			targetProxy = 0F3527B21CF22F6A0068D6C3 /* PBXContainerItemProxy */;
+		};
+		0F3527BE1CF22F6A0068D6C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F35279C1CF22F6A0068D6C3 /* kropBox */;
+			targetProxy = 0F3527BD1CF22F6A0068D6C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F3527A41CF22F6A0068D6C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F3527A51CF22F6A0068D6C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F3527A91CF22F6A0068D6C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F3527AA1CF22F6A0068D6C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F3527C31CF22F6A0068D6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F3527C41CF22F6A0068D6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F3527C61CF22F6A0068D6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kropBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kpath.kropBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F3527C71CF22F6A0068D6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kropBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kpath.kropBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0F3527C91CF22F6A0068D6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kropBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kpath.kropBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kropBox.app/kropBox";
+			};
+			name = Debug;
+		};
+		0F3527CA1CF22F6A0068D6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kropBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kpath.kropBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kropBox.app/kropBox";
+			};
+			name = Release;
+		};
+		0F3527CC1CF22F6A0068D6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kropBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kpath.kropBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kropBox;
+			};
+			name = Debug;
+		};
+		0F3527CD1CF22F6A0068D6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kropBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kpath.kropBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kropBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F3527981CF22F6A0068D6C3 /* Build configuration list for PBXProject "kropBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3527C31CF22F6A0068D6C3 /* Debug */,
+				0F3527C41CF22F6A0068D6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F3527C51CF22F6A0068D6C3 /* Build configuration list for PBXNativeTarget "kropBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3527C61CF22F6A0068D6C3 /* Debug */,
+				0F3527C71CF22F6A0068D6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F3527C81CF22F6A0068D6C3 /* Build configuration list for PBXNativeTarget "kropBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3527C91CF22F6A0068D6C3 /* Debug */,
+				0F3527CA1CF22F6A0068D6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F3527CB1CF22F6A0068D6C3 /* Build configuration list for PBXNativeTarget "kropBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3527CC1CF22F6A0068D6C3 /* Debug */,
+				0F3527CD1CF22F6A0068D6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F3527951CF22F6A0068D6C3 /* Project object */;
+}
