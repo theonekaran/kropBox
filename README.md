@@ -37,4 +37,4 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/1neaXGU.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/theonekaran/kropBox/blob/master/kropbox_walkthrough_prep.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
