@@ -14,6 +14,10 @@
 		0F3527AB1CF22F6A0068D6C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3527A91CF22F6A0068D6C3 /* LaunchScreen.storyboard */; };
 		0F3527B61CF22F6A0068D6C3 /* kropBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3527B51CF22F6A0068D6C3 /* kropBoxTests.swift */; };
 		0F3527C11CF22F6A0068D6C3 /* kropBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3527C01CF22F6A0068D6C3 /* kropBoxUITests.swift */; };
+		0F3527CF1CF2432B0068D6C3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3527CE1CF2432B0068D6C3 /* WelcomeViewController.swift */; };
+		0F3527D11CF25EF00068D6C3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3527D01CF25EF00068D6C3 /* SettingsViewController.swift */; };
+		0F3527D31CF262A80068D6C3 /* exisSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3527D21CF262A80068D6C3 /* exisSettingsViewController.swift */; };
+		0F3527D51CF263C90068D6C3 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3527D41CF263C90068D6C3 /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		0F3527BC1CF22F6A0068D6C3 /* kropBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kropBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F3527C01CF22F6A0068D6C3 /* kropBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kropBoxUITests.swift; sourceTree = "<group>"; };
 		0F3527C21CF22F6A0068D6C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F3527CE1CF2432B0068D6C3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		0F3527D01CF25EF00068D6C3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0F3527D21CF262A80068D6C3 /* exisSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = exisSettingsViewController.swift; sourceTree = "<group>"; };
+		0F3527D41CF263C90068D6C3 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				0F3527A01CF22F6A0068D6C3 /* AppDelegate.swift */,
 				0F3527A21CF22F6A0068D6C3 /* ViewController.swift */,
 				0F3527A41CF22F6A0068D6C3 /* Main.storyboard */,
+				0F3527D41CF263C90068D6C3 /* PhotosViewController.swift */,
+				0F3527D01CF25EF00068D6C3 /* SettingsViewController.swift */,
+				0F3527D21CF262A80068D6C3 /* exisSettingsViewController.swift */,
+				0F3527CE1CF2432B0068D6C3 /* WelcomeViewController.swift */,
 				0F3527A71CF22F6A0068D6C3 /* Assets.xcassets */,
 				0F3527A91CF22F6A0068D6C3 /* LaunchScreen.storyboard */,
 				0F3527AC1CF22F6A0068D6C3 /* Info.plist */,
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F3527CF1CF2432B0068D6C3 /* WelcomeViewController.swift in Sources */,
 				0F3527A31CF22F6A0068D6C3 /* ViewController.swift in Sources */,
+				0F3527D31CF262A80068D6C3 /* exisSettingsViewController.swift in Sources */,
+				0F3527D51CF263C90068D6C3 /* PhotosViewController.swift in Sources */,
 				0F3527A11CF22F6A0068D6C3 /* AppDelegate.swift in Sources */,
+				0F3527D11CF25EF00068D6C3 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
